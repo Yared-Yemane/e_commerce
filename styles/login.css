@@ -1,0 +1,93 @@
+div.content{
+    margin-left: 500px;
+    margin-top: 40px;
+}
+
+input.password_input{
+    margin-left: 10px;
+}
+
+input.username{
+    margin-left: 6px;
+}
+
+input.login_button{
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+b.or{
+    margin-left: 180px;
+}
+
+b.login_with{
+    margin-left: 100px;
+}
+div.social_logos{
+    display: inline;
+}
+
+a.google_logo,a.telegram_logo,a.linkedin_logo{
+    margin-left: 20px;
+}
+
+a.register_link{
+    display: inline;
+    margin-left: 5px;
+    font-style: italic;
+    color: orange;
+    font-size: larger;
+}
+
+fieldset.fieldset{
+    border-style: double;
+    border-radius: 10px;
+    width: 350px;
+    border: 5px solid black;
+    padding: 20px;
+    text-align: left;
+}
+
+legend.legend{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: midnightblue;
+}
+
+input.username,input.password_input{
+    border-style: double;
+    border-radius: 5px;
+}
+
+b.password_input,b.username{
+    font-family: inherit;
+}
+
+input.login_button,input.reset_button {
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+input.login_button:hover,input.reset_button:hover{
+    color: orange;
+}
+
+b.register{
+    margin-left: 82px;
+    top: 1000px;
+    font-kerning: auto;
+}
+
+input.username::placeholder,input.password_input::placeholder{
+    font-style: italic;
+    font-size: smaller;
+    padding: 5px;
+}
+
+div#footer{
+    margin-top: 80px;
+}

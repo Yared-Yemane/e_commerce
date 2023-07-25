@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/register.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/mountain.png" alt="E-commerce logo"></a>
+        <div class="menu">    
+            <a class="active" id="" href="index.html">Home</a>
+            <a class="shop" href="shop.html">Shop</a>
+            <a class="offers" href="offers.html">Special-Offers</a>
+            <a class="about" href="about.html">About</a>
+            <a class="contact" href="index.html#contact">Contact</a>
+            <a class="login" href="login.html">Login</a> <b>|</b>
+            <a class="register" href="register.html">Register</a>
+        </div>
+    </header>
+
+<div class="content">
+    <fieldset class="fieldset">
+        <legend class="legend">
+            <h3>REGISTERATION</h3>     
+        </legend>
+        <form class="register_form" action="plugins/register.php" method="POST">
+            <b>Firstname:</b> <input class="firstname" type="text" placeholder="Enter your first name . . . " required><br><br>
+            <b>Lastname:</b> <input class="lastname" type="text" placeholder="Enter your last name . . . "><br><br>
+            <b>Username:</b> <input class="username" type="text" placeholder="Choose a username . . . " required><br><br>
+            <b>E-mail:</b> <input class="email" type="email" placeholder="Enter your e-mail address . . . " required><br><br>
+            <b>Password:</b> <input class="password_1" type="password" placeholder="Choose a password . . ." required><br><br>
+            <b>Confirm Password:</b> <input class="password_2" type="password" placeholder="Enter your password again . . . " required><br><br>
+            <input class="signup_button" type="submit" value="Sign up">
+            <input class="reset_button" type="reset" value="Cancel">
+        </form>
+    </fieldset>
+    
+    
+    <br><br><b class="or">OR</b><br><br><b class="login_with">Register with </b>
+
+        <div class="social_logos">
+            <a class="google_logo" href="https://gmail.com/login"><img src="images/logo/google.PNG" alt="G-mail"></a>
+            <a class="linkedin_logo" href="https://linkedin.com/accounts/login"><img src="images/logo/Linkedin.PNG" alt="Linkedin"></a>
+            <a class="telegram_logo" href="https://telegram.com/login.html"><img src="images/logo/Telegram.PNG" alt="Telegram"></a>
+        </div>
+
+    <br><br><p id="registered"><b>You already have an account?</b><a class="login_link" href="login.html">Login</a></p>
+</div>
+<div id="footer">
+    <footer>
+        <p id="footer">  <a href="index.html"> MOUNTAIN </a> e-commerce PLC | Copyright &copy;, 2014 Geez Calendar | All rights reserved.</p>
+    </footer>       
+</div>
+</div>
+</body>
+</html>

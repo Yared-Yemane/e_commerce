@@ -1,0 +1,105 @@
+div.content{
+    margin-left: 500px;
+    margin-top: 40px;
+}
+
+input.password_input{
+    margin-left: 10p4
+}
+
+input.firstname{
+    margin-left: 48px;
+}
+input.lastname{
+    margin-left: 50px;
+}
+
+input.username{
+    margin-left: 49px;
+}
+
+input.email{
+    margin-left: 73px;
+}
+
+input.password_1{
+    margin-left:54px;
+}
+
+input.password_2{
+    margin-left: 18px;
+}
+
+b.or{
+    margin-left: 173px;
+}
+
+b.login_with{
+    margin-left: 90px;
+}
+div.social_logos{
+    display: inline;
+}
+
+a.google_logo,a.telegram_logo,a.linkedin_logo{
+    margin-left: 20px;
+    padding: 2px;
+}
+
+a.login_link{
+    display: inline;
+    margin-left: 5px;
+    font-style: italic;
+    color: orange;
+    font-size: larger;
+}
+
+fieldset.fieldset{
+    border-style: double;
+    border-radius: 10px;
+    width: 350px;
+    border: 5px solid black;
+    padding: 20px;
+    text-align: left;
+}
+
+legend.legend{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: midnightblue;
+}
+
+input.signup_button,input.reset_button {
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+input.signup_button:hover,input.reset_button:hover{
+    color: orange;
+}
+
+input.signup_button{
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+input.firstname::placeholder,input.lastname::placeholder,
+input.username::placeholder,
+input.email::placeholder,input.password_1::placeholder,
+input.password_2::placeholder{
+    font-style: italic;
+    font-size: smaller;
+    padding: 5px;
+}
+
+div#footer{
+    margin-top: 80px;
+}
+
+p#registered{
+    margin-left: 85px;
+}

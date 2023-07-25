@@ -1,0 +1,11 @@
+div#footer{
+    background-color: black;
+    height: 40px;
+    width: 1330px;
+    color: whitesmoke;
+}
+
+p#footer{
+    padding-top: 10px;
+    padding-left: 400px;
+}

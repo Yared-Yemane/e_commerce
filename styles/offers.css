@@ -1,0 +1,163 @@
+div.content_2,div.content_3{
+    padding-top: 130px;
+}
+
+div.content_2b{
+    display: inline;
+    float: right;
+}
+
+div.content_3b{
+    display: inline;
+}
+
+img.content_2a{
+    width: 300px;
+    padding: 10px;
+}
+
+img.content_2b{
+    width: 300px;
+    float: right;
+    margin-right: 500px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+img.content_2c{
+    width: 300px;
+    float: right;
+    margin-right: -818px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: -900px;
+}
+
+
+fieldset#price, fieldset#catagory, fieldset#keyword, fieldset#buttons{
+    border-style: double;
+    border-radius: 10px;
+    width: 200px;
+    border: rgb(124, 105, 105);
+    text-align: left;
+    display: inline;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+fieldset#container{
+    border: rgb(124, 107, 107);
+    border-style: solid;
+    border-radius: 10px;
+    height: 90px;
+    width: 935px;
+    margin-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+input {
+    padding: 6px 12px 6px 12px;
+    border: 1px solid #665544;
+    color: midnightblue;
+    font-weight: 700;
+}
+
+input#filter, input#cancel{
+    border-radius: 10px;
+}
+
+input#filter:hover, input#cancel:hover {
+    background-color: #665544;
+    color: white;
+    cursor: pointer;
+
+}
+
+input.submit:active {
+    background-color: chocolate;
+}
+    
+input#keyword {
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+option.options:focus {
+    color: #665544;
+}
+
+p#select{
+    font-style: italic;
+    color: midnightblue;
+}
+
+div#text2a, div#text2b, div#text2c{
+    display: inline;
+}
+
+p#par2a{
+    margin-left: 538px;
+}
+
+p#par2b{
+    margin-top: -109px;
+    margin-left: 7px;
+}
+ 
+p#par2c{
+    margin-top: -109px;
+    margin-left: 1037px;
+}
+
+div#footer{
+    margin-top: 50px;
+}
+
+div#par2a{
+    height: 180px;
+    width: 295px;
+    margin-left: 10px;
+}
+
+div#par2b{
+    height: 180px;
+    width: 295px;
+    display: inline;
+    float:right;
+    margin-top: -183px;
+    margin-right: 11px;
+}
+
+div#par2c{
+    height: 180px;
+    width: 295px;
+    display: inline;
+    float: left;
+    margin-left: 522px;
+    margin-top: -183px;
+}
+
+p#firstPar, p#secondPar, p#thirdPar{
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+p#thirdPar{
+    margin-top: 3px;
+}
+
+input#minimum{
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+input#maximum{
+    border-radius: 5px;
+}
+
+del.down{
+    color: red;
+}
